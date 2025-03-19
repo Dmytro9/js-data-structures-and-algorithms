@@ -19,9 +19,13 @@ function bubbleSort(arr) {
   }
   return arr;
 }
+const array = [5, 4, 2, 1];
+const result = bubbleSort(array);
+
+console.log(result);
 
 // Solution 2
-function bubbleSort(arr) {
+function bubbleSort1(arr) {
   // Create a variable to track if any swaps have been made
   let swapped = false;
 

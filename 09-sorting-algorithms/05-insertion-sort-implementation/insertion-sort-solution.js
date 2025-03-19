@@ -27,4 +27,7 @@ function insertionSort(arr) {
   return arr;
 }
 
+const array = [4, 3, 2, 10, 12, 1, 5, 6];
+const array1 = [3, 4, 2, 10, 12, 1, 5, 6];
+
 module.exports = insertionSort;
